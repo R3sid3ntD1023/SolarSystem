@@ -1,0 +1,36 @@
+cmake_minimum_required(VERSION 3.8...3.10)
+
+set(TARGET_NAME SolarSystem)
+set(BHIVE_ENGINE_DIR "C:/Users/dariu/Documents/BHive")
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+project(${TARGET_NAME} LANGUAGES CXX VERSION 1.0.0)
+
+file(GLOB_RECURSE SOURCE_FILES CMAKE_CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/src/**.cpp)
+file(GLOB_RECURSE HEADER_FILES CMAKE_CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/src/**.h)
+source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${HEADER_FILES} ${SOURCE_FILES})
+
+add_library(${TARGET_NAME} SHARED ${SOURCE_FILES} ${HEADER_FILES})
+
+if(NOT TARGET BHive-Engine)
+	add_subdirectory(${BHIVE_ENGINE_DIR} ${BHIVE_ENGINE_DIR}/bin/${CMAKE_SYSTEM_TYPE}/${CMAKE_BUILD_TYPE})
+	message("Target not found using subdirectory")
+endif()
+
+target_link_libraries(${TARGET_NAME} PRIVATE BHive-Engine )
+target_include_directories(${TARGET_NAME} PRIVATE ${BHIVE_ENGINE_DIR}/Engine/src)
+
+if(MSVC)
+	add_compile_options(/MP)
+	set_property(DIRECTORY ${CMAKE_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ${TARGET_NAME})
+	set_target_properties(${TARGET_NAME} PROPERTIES LINK_OPTIONS "/INCREMENTAL:NO;/LTCG")
+endif()
+
+target_compile_definitions(${TARGET_NAME} PUBLIC _CRT_SECURE_NO_WARNINGS PUBLIC RESOURCE_PATH="${CMAKE_CURRENT_SOURCE_DIR}/Resources/" )
+target_include_directories(${TARGET_NAME} PUBLIC src)
+
+
+
+
+ 
