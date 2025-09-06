@@ -1,0 +1,9 @@
+{
+    "value0": {
+        "Name": "SolarSystem",
+        "ProjectDirectory": "C:\\Users\\dariu\\Documents\\BHiveProjects\\SolarSystem",
+        "ResourcesDirectory": "Resources",
+        "ModulePath": "bin\\Windows\\Debug\\SolarSystem.dll",
+        "StartScene": "67237c47-a7d0-403c-bd99-53c2feca1a71"
+    }
+}

@@ -17,6 +17,14 @@
             }
         },
         {
+            "key": "5264964a-b708-46db-8584-b7354964ba5a",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\phong1.001.asset",
+                "Name": "phong1.001"
+            }
+        },
+        {
             "key": "0f8f604c-605a-421f-b37c-cfa7ad470750",
             "value": {
                 "Type": "Texture2D",
@@ -33,19 +41,19 @@
             }
         },
         {
+            "key": "459a9568-d48f-4bde-b776-e76b8b7af8ac",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Arrow_MAT.001.asset",
+                "Name": "Arrow_MAT.001"
+            }
+        },
+        {
             "key": "a870b7f7-affa-40cb-b009-24b6ca1c059f",
             "value": {
                 "Type": "Texture2D",
                 "Path": "Assets\\Textures\\Saturn.asset",
                 "Name": "Saturn"
-            }
-        },
-        {
-            "key": "010c23a4-4fdf-4aad-8bfd-8ef5931dced8",
-            "value": {
-                "Type": "Texture2D",
-                "Path": "Assets\\Textures\\Mercury.asset",
-                "Name": "Mercury"
             }
         },
         {
@@ -57,11 +65,27 @@
             }
         },
         {
+            "key": "1edb64eb-aec9-493d-b7ba-f72e8f72e5d5",
+            "value": {
+                "Type": "StaticMesh",
+                "Path": "Assets\\Meshes\\Plane.asset",
+                "Name": "Plane"
+            }
+        },
+        {
             "key": "cc635ef3-f381-4963-a60e-3148b8ba9795",
             "value": {
                 "Type": "Texture2D",
                 "Path": "Assets\\Textures\\Pluto.asset",
                 "Name": "Pluto"
+            }
+        },
+        {
+            "key": "010c23a4-4fdf-4aad-8bfd-8ef5931dced8",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Textures\\Mercury.asset",
+                "Name": "Mercury"
             }
         },
         {
@@ -89,6 +113,22 @@
             }
         },
         {
+            "key": "67237c47-a7d0-403c-bd99-53c2feca1a71",
+            "value": {
+                "Type": "World",
+                "Path": "Assets\\Scenes\\Shadows.asset",
+                "Name": "Shadows"
+            }
+        },
+        {
+            "key": "f5ae4861-5748-48b4-adb4-5927563636d8",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Kackujin\\Kachujin_diffuse_body.png.asset",
+                "Name": "Kachujin_diffuse_body.png"
+            }
+        },
+        {
             "key": "d055aee2-7875-410f-a2c7-3a91029387db",
             "value": {
                 "Type": "Texture2D",
@@ -105,11 +145,19 @@
             }
         },
         {
-            "key": "71b6c04d-8d4a-46f8-8cfb-7ebffb5130d5",
+            "key": "da45bc75-3239-4cd7-a977-7ad41e643fb6",
             "value": {
-                "Type": "BDRFMaterial",
-                "Path": "Assets\\Meshes\\sphere(0).asset",
-                "Name": "sphere(0)"
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*7.asset",
+                "Name": "*7"
+            }
+        },
+        {
+            "key": "6d30ce8d-d7a9-44ca-bafb-a6032ecb640d",
+            "value": {
+                "Type": "SkeletalMesh",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Erika.asset",
+                "Name": "Erika"
             }
         },
         {
@@ -121,11 +169,35 @@
             }
         },
         {
+            "key": "98693495-2e38-4819-be7f-a530bff329fa",
+            "value": {
+                "Type": "StaticMesh",
+                "Path": "Assets\\Meshes\\Container.asset",
+                "Name": "Container"
+            }
+        },
+        {
             "key": "0e621d75-901b-4186-b24d-739277060184",
             "value": {
                 "Type": "World",
                 "Path": "Assets\\Scenes\\SolarSystem.asset",
                 "Name": "SolarSystem"
+            }
+        },
+        {
+            "key": "ced6899e-81cc-4d84-b85e-1af38ded1bc7",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*5.asset",
+                "Name": "*5"
+            }
+        },
+        {
+            "key": "7693d25e-49c4-43b0-ab9f-5aa089654eba",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\FemaleFitA_Body_diffuse.png.asset",
+                "Name": "FemaleFitA_Body_diffuse.png"
             }
         },
         {
@@ -177,6 +249,14 @@
             }
         },
         {
+            "key": "750329ad-ce5c-4924-96b9-98dd923a4521",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Erika(6).asset",
+                "Name": "Erika(6)"
+            }
+        },
+        {
             "key": "0bc47b91-83be-4c5d-8b48-ecb83a36d465",
             "value": {
                 "Type": "EmissiveMaterial",
@@ -193,11 +273,27 @@
             }
         },
         {
+            "key": "91b3041e-cfa4-48d2-b1e1-391d81ef0c2d",
+            "value": {
+                "Type": "World",
+                "Path": "Assets\\Scenes\\NewWorld.asset",
+                "Name": "NewWorld"
+            }
+        },
+        {
             "key": "2e14e893-48b5-4db7-8c32-160ba47da9b0",
             "value": {
                 "Type": "LambertMaterial",
                 "Path": "Assets\\Materials\\M_Saturn.asset",
                 "Name": "M_Saturn"
+            }
+        },
+        {
+            "key": "6b91c5b9-feb7-440d-9ea1-6017978651d2",
+            "value": {
+                "Type": "LambertMaterial",
+                "Path": "Assets\\Materials\\M_Neptune.asset",
+                "Name": "M_Neptune"
             }
         },
         {
@@ -209,11 +305,267 @@
             }
         },
         {
-            "key": "6b91c5b9-feb7-440d-9ea1-6017978651d2",
+            "key": "a2055b9e-b8ee-450f-a334-d1431e627b21",
             "value": {
-                "Type": "LambertMaterial",
-                "Path": "Assets\\Materials\\M_Neptune.asset",
-                "Name": "M_Neptune"
+                "Type": "Skeleton",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Erika_Skeleton.asset",
+                "Name": "Erika_Skeleton"
+            }
+        },
+        {
+            "key": "2e6db09c-72f0-4aa7-950b-6c438477b3c6",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*4.asset",
+                "Name": "*4"
+            }
+        },
+        {
+            "key": "72de4822-4189-4b7e-9285-720275a6f913",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\M_Basic.asset",
+                "Name": "M_Basic"
+            }
+        },
+        {
+            "key": "2989da0e-0b85-43d6-adf8-6edd92ec6bca",
+            "value": {
+                "Type": "Sprite",
+                "Path": "Sprites\\NewSprite.asset",
+                "Name": "NewSprite"
+            }
+        },
+        {
+            "key": "40d0cf6d-3f5d-4e26-a5c6-8874427c2f45",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\Container(0).asset",
+                "Name": "Container(0)"
+            }
+        },
+        {
+            "key": "15078181-dc6f-4720-896b-d3ba2d35db0d",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*3.asset",
+                "Name": "*3"
+            }
+        },
+        {
+            "key": "8c434f9d-d891-47d4-9ee2-925d4a962da0",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Kackujin\\KachujinGRosales(2).asset",
+                "Name": "KachujinGRosales(2)"
+            }
+        },
+        {
+            "key": "08461949-0117-47e8-8fdd-b016eb402c7d",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Textures\\container2.asset",
+                "Name": "container2"
+            }
+        },
+        {
+            "key": "516bd7c1-fcae-49aa-a7bb-e37c4e8a3b2c",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Bow_MAT.001.asset",
+                "Name": "Bow_MAT.001"
+            }
+        },
+        {
+            "key": "5833cd68-a3fa-4958-a87f-d954fa03628d",
+            "value": {
+                "Type": "PhysicsMaterial",
+                "Path": "Assets\\Materials\\M_BouncingMaterial.asset",
+                "Name": "M_BouncingMaterial"
+            }
+        },
+        {
+            "key": "68bce76e-0f53-480a-aebc-4c4e98c6ce0b",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*1.asset",
+                "Name": "*1"
+            }
+        },
+        {
+            "key": "4c045404-acfe-4a11-8098-8c521b5f7514",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*0.asset",
+                "Name": "*0"
+            }
+        },
+        {
+            "key": "d2ac0ee5-b0f6-4f63-9520-de8c6bc4ae14",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*6.asset",
+                "Name": "*6"
+            }
+        },
+        {
+            "key": "53ec5500-4d99-45b8-896e-391b745eeedb",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*8.asset",
+                "Name": "*8"
+            }
+        },
+        {
+            "key": "0b6fbd21-e5fa-442f-947f-ae8fd99a8691",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*2.asset",
+                "Name": "*2"
+            }
+        },
+        {
+            "key": "5dfff9c3-185e-4eca-a0c3-9a7339678696",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Erika_Archer_Clothes_normal.png.asset",
+                "Name": "Erika_Archer_Clothes_normal.png"
+            }
+        },
+        {
+            "key": "5179498e-070b-4ad8-aa17-a5d6b4b32ed3",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Erika_Archer_Clothes_diffuse.png.asset",
+                "Name": "Erika_Archer_Clothes_diffuse.png"
+            }
+        },
+        {
+            "key": "4e384b44-27c7-46ae-9493-f0378b3245a8",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Akai_MAT1.001.asset",
+                "Name": "Akai_MAT1.001"
+            }
+        },
+        {
+            "key": "a8013ff7-4872-46e8-a6dd-498cc781ed94",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Bow_NM.jpg.asset",
+                "Name": "Bow_NM.jpg"
+            }
+        },
+        {
+            "key": "33e5c20e-fe10-4748-ab81-f701596c4d91",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Bow_DIFF.jpg.asset",
+                "Name": "Bow_DIFF.jpg"
+            }
+        },
+        {
+            "key": "781ef198-c899-48a0-ae75-8e9eec6fa7c4",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\FemaleFitA_StdNM.png.asset",
+                "Name": "FemaleFitA_StdNM.png"
+            }
+        },
+        {
+            "key": "e5c87ffe-5c3b-46e7-8437-221b0cb76bf8",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Arrow_NM.jpg.asset",
+                "Name": "Arrow_NM.jpg"
+            }
+        },
+        {
+            "key": "a7672ab1-3618-451e-95a1-0cb08799f814",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Kackujin\\kachujin_MAT.asset",
+                "Name": "kachujin_MAT"
+            }
+        },
+        {
+            "key": "5b8a342c-7ba7-477d-b6f1-5046caa4f737",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\EyeSpec_MAT1.001.asset",
+                "Name": "EyeSpec_MAT1.001"
+            }
+        },
+        {
+            "key": "8701378b-146d-47aa-905c-627f78a79fae",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\FemaleFitA_eyelash_diffuse.png.asset",
+                "Name": "FemaleFitA_eyelash_diffuse.png"
+            }
+        },
+        {
+            "key": "81933896-613d-4f1e-bd0b-77300421b9c7",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Body_MAT1.001.asset",
+                "Name": "Body_MAT1.001"
+            }
+        },
+        {
+            "key": "650910e2-8446-44aa-b23d-904a4f26e7b9",
+            "value": {
+                "Type": "Skeleton",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Kackujin\\KachujinGRosales_Skeleton.asset",
+                "Name": "KachujinGRosales_Skeleton"
+            }
+        },
+        {
+            "key": "1ebddfa1-1802-44ea-bbf3-2bfaa7b51c64",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Arrow_DIFF.png.asset",
+                "Name": "Arrow_DIFF.png"
+            }
+        },
+        {
+            "key": "d96fb6d4-85a5-49bf-aa52-9e683ecd9de5",
+            "value": {
+                "Type": "SkeletalMesh",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Kackujin\\KachujinGRosales.asset",
+                "Name": "KachujinGRosales"
+            }
+        },
+        {
+            "key": "ffee0aa5-1aa0-403d-acbf-21797d6a8980",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Kackujin\\Kachujin_normal.png.asset",
+                "Name": "Kachujin_normal.png"
+            }
+        },
+        {
+            "key": "24e84398-dd71-486b-9679-ca2799657db3",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Kackujin\\Kachujin_specular.png.asset",
+                "Name": "Kachujin_specular.png"
+            }
+        },
+        {
+            "key": "06f0a432-401c-4a9c-b09e-68d831357ab5",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Kackujin\\Kachujin_diffuse.png.asset",
+                "Name": "Kachujin_diffuse.png"
+            }
+        },
+        {
+            "key": "1bd4a4d3-5b80-4572-8ea3-6a8698b29106",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Kackujin\\kachujin_MAT_.asset",
+                "Name": "kachujin_MAT_"
             }
         }
     ]

@@ -7,16 +7,13 @@
       "name": "msdfgen"
     },
     {
-      "name": "assimp"
-    },
-    {
       "name": "entt"
     },
     {
-      "name": "physx"
+      "name": "openal-soft"
     },
     {
-      "name": "openal-soft"
+      "name": "physx"
     },
     {
       "name": "glfw3"
@@ -29,7 +26,7 @@
       "name": "glm"
     },
     {
-      "name" : "rttr"
+      "name": "rttr"
     },
     {
       "name": "stb"
