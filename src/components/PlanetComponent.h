@@ -1,8 +1,7 @@
 #pragma once
 
 #include "world/Component.h"
-
-#define SOLAR_SYSTEM_API __declspec(dllexport)
+#include "SolarSystemModule.h"
 
 BEGIN_NAMESPACE(BHive)
 
@@ -17,13 +16,13 @@ struct SOLAR_SYSTEM_API PlanetTime
 	uint32_t ToSeconds();
 
 	template <typename A>
-	std::string SaveMinimal(A &ar) const
+	std::string SaveMinimal(A& ar) const
 	{
 		return std::format("{}'{}'{}'{}'{}", Years, Days, Hours, Minutes, Seconds);
 	}
 
 	template <typename A>
-	void LoadMinimal(A &ar, const std::string &v)
+	void LoadMinimal(A& ar, const std::string& v)
 	{
 		char token;
 		std::stringstream ss(v);
@@ -41,8 +40,8 @@ struct SOLAR_SYSTEM_API PlanetComponent : public Component, public ITickable
 	PlanetTime RotationTime;
 	PlanetTime OrbitalTime;
 
-	virtual void Save(cereal::BinaryOutputArchive &ar) const override;
-	virtual void Load(cereal::BinaryInputArchive &ar) override;
+	virtual void Save(cereal::BinaryOutputArchive& ar) const override;
+	virtual void Load(cereal::BinaryInputArchive& ar) override;
 
 	REFLECTABLEV(Component)
 

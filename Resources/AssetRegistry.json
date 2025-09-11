@@ -9,11 +9,27 @@
             }
         },
         {
-            "key": "ca097dbf-87b4-46b0-964f-d41ebac1e55b",
+            "key": "459a9568-d48f-4bde-b776-e76b8b7af8ac",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Arrow_MAT.001.asset",
+                "Name": "Arrow_MAT.001"
+            }
+        },
+        {
+            "key": "201aa927-8ff5-4162-baac-c4cb63d08c53",
+            "value": {
+                "Type": "LambertMaterial",
+                "Path": "Assets\\Materials\\M_Pluto.asset",
+                "Name": "M_Pluto"
+            }
+        },
+        {
+            "key": "a870b7f7-affa-40cb-b009-24b6ca1c059f",
             "value": {
                 "Type": "Texture2D",
-                "Path": "Assets\\Textures\\Mars.asset",
-                "Name": "Mars"
+                "Path": "Assets\\Textures\\Saturn.asset",
+                "Name": "Saturn"
             }
         },
         {
@@ -33,27 +49,11 @@
             }
         },
         {
-            "key": "201aa927-8ff5-4162-baac-c4cb63d08c53",
-            "value": {
-                "Type": "LambertMaterial",
-                "Path": "Assets\\Materials\\M_Pluto.asset",
-                "Name": "M_Pluto"
-            }
-        },
-        {
-            "key": "459a9568-d48f-4bde-b776-e76b8b7af8ac",
-            "value": {
-                "Type": "StandardMaterial",
-                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Arrow_MAT.001.asset",
-                "Name": "Arrow_MAT.001"
-            }
-        },
-        {
-            "key": "a870b7f7-affa-40cb-b009-24b6ca1c059f",
+            "key": "ca097dbf-87b4-46b0-964f-d41ebac1e55b",
             "value": {
                 "Type": "Texture2D",
-                "Path": "Assets\\Textures\\Saturn.asset",
-                "Name": "Saturn"
+                "Path": "Assets\\Textures\\Mars.asset",
+                "Name": "Mars"
             }
         },
         {
@@ -65,19 +65,19 @@
             }
         },
         {
-            "key": "1edb64eb-aec9-493d-b7ba-f72e8f72e5d5",
-            "value": {
-                "Type": "StaticMesh",
-                "Path": "Assets\\Meshes\\Plane.asset",
-                "Name": "Plane"
-            }
-        },
-        {
             "key": "cc635ef3-f381-4963-a60e-3148b8ba9795",
             "value": {
                 "Type": "Texture2D",
                 "Path": "Assets\\Textures\\Pluto.asset",
                 "Name": "Pluto"
+            }
+        },
+        {
+            "key": "1edb64eb-aec9-493d-b7ba-f72e8f72e5d5",
+            "value": {
+                "Type": "StaticMesh",
+                "Path": "Assets\\Meshes\\Plane.asset",
+                "Name": "Plane"
             }
         },
         {
@@ -89,14 +89,6 @@
             }
         },
         {
-            "key": "c4b647db-f239-403f-bd73-a91a9a141162",
-            "value": {
-                "Type": "LambertMaterial",
-                "Path": "Assets\\Materials\\M_Uranus.asset",
-                "Name": "M_Uranus"
-            }
-        },
-        {
             "key": "58a4ddac-befd-4666-90c9-a08a83228575",
             "value": {
                 "Type": "Texture2D",
@@ -105,11 +97,11 @@
             }
         },
         {
-            "key": "224352b3-c8b9-45fd-8375-973dd647528c",
+            "key": "c4b647db-f239-403f-bd73-a91a9a141162",
             "value": {
-                "Type": "Texture2D",
-                "Path": "Assets\\Textures\\Uranus.asset",
-                "Name": "Uranus"
+                "Type": "LambertMaterial",
+                "Path": "Assets\\Materials\\M_Uranus.asset",
+                "Name": "M_Uranus"
             }
         },
         {
@@ -118,6 +110,14 @@
                 "Type": "World",
                 "Path": "Assets\\Scenes\\Shadows.asset",
                 "Name": "Shadows"
+            }
+        },
+        {
+            "key": "224352b3-c8b9-45fd-8375-973dd647528c",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Textures\\Uranus.asset",
+                "Name": "Uranus"
             }
         },
         {
@@ -153,6 +153,14 @@
             }
         },
         {
+            "key": "726eefbd-0bab-40b9-bd78-a076a3326a34",
+            "value": {
+                "Type": "LambertMaterial",
+                "Path": "Assets\\Materials\\M_Earth.asset",
+                "Name": "M_Earth"
+            }
+        },
+        {
             "key": "6d30ce8d-d7a9-44ca-bafb-a6032ecb640d",
             "value": {
                 "Type": "SkeletalMesh",
@@ -161,11 +169,11 @@
             }
         },
         {
-            "key": "726eefbd-0bab-40b9-bd78-a076a3326a34",
+            "key": "0e621d75-901b-4186-b24d-739277060184",
             "value": {
-                "Type": "LambertMaterial",
-                "Path": "Assets\\Materials\\M_Earth.asset",
-                "Name": "M_Earth"
+                "Type": "World",
+                "Path": "Assets\\Scenes\\SolarSystem.asset",
+                "Name": "SolarSystem"
             }
         },
         {
@@ -177,11 +185,11 @@
             }
         },
         {
-            "key": "0e621d75-901b-4186-b24d-739277060184",
+            "key": "e453c5fb-6374-4242-a013-5d2fd6fdff42",
             "value": {
-                "Type": "World",
-                "Path": "Assets\\Scenes\\SolarSystem.asset",
-                "Name": "SolarSystem"
+                "Type": "LambertMaterial",
+                "Path": "Assets\\Materials\\M_Venus.asset",
+                "Name": "M_Venus"
             }
         },
         {
@@ -201,14 +209,6 @@
             }
         },
         {
-            "key": "e453c5fb-6374-4242-a013-5d2fd6fdff42",
-            "value": {
-                "Type": "LambertMaterial",
-                "Path": "Assets\\Materials\\M_Venus.asset",
-                "Name": "M_Venus"
-            }
-        },
-        {
             "key": "98659b30-66e9-426a-a0cc-f93bc95ebc0c",
             "value": {
                 "Type": "LambertMaterial",
@@ -217,11 +217,11 @@
             }
         },
         {
-            "key": "1a1baf2c-9d54-413f-bf60-95e99f54eb6c",
+            "key": "d8eabd9a-a530-44d9-821c-743cd4b7076f",
             "value": {
-                "Type": "Texture2D",
-                "Path": "Assets\\Textures\\white.asset",
-                "Name": "white"
+                "Type": "StaticMesh",
+                "Path": "Assets\\Meshes\\Moons\\Deimos.asset",
+                "Name": "Deimos"
             }
         },
         {
@@ -230,6 +230,14 @@
                 "Type": "LambertMaterial",
                 "Path": "Assets\\Materials\\M_Moon.asset",
                 "Name": "M_Moon"
+            }
+        },
+        {
+            "key": "1a1baf2c-9d54-413f-bf60-95e99f54eb6c",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Textures\\white.asset",
+                "Name": "white"
             }
         },
         {
@@ -249,19 +257,19 @@
             }
         },
         {
-            "key": "750329ad-ce5c-4924-96b9-98dd923a4521",
-            "value": {
-                "Type": "StandardMaterial",
-                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Erika(6).asset",
-                "Name": "Erika(6)"
-            }
-        },
-        {
             "key": "0bc47b91-83be-4c5d-8b48-ecb83a36d465",
             "value": {
                 "Type": "EmissiveMaterial",
                 "Path": "Assets\\Materials\\M_Sun.asset",
                 "Name": "M_Sun"
+            }
+        },
+        {
+            "key": "750329ad-ce5c-4924-96b9-98dd923a4521",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Erika(6).asset",
+                "Name": "Erika(6)"
             }
         },
         {
@@ -273,19 +281,19 @@
             }
         },
         {
-            "key": "91b3041e-cfa4-48d2-b1e1-391d81ef0c2d",
-            "value": {
-                "Type": "World",
-                "Path": "Assets\\Scenes\\NewWorld.asset",
-                "Name": "NewWorld"
-            }
-        },
-        {
             "key": "2e14e893-48b5-4db7-8c32-160ba47da9b0",
             "value": {
                 "Type": "LambertMaterial",
                 "Path": "Assets\\Materials\\M_Saturn.asset",
                 "Name": "M_Saturn"
+            }
+        },
+        {
+            "key": "91b3041e-cfa4-48d2-b1e1-391d81ef0c2d",
+            "value": {
+                "Type": "World",
+                "Path": "Assets\\Scenes\\NewWorld.asset",
+                "Name": "NewWorld"
             }
         },
         {
@@ -305,19 +313,11 @@
             }
         },
         {
-            "key": "a2055b9e-b8ee-450f-a334-d1431e627b21",
+            "key": "2989da0e-0b85-43d6-adf8-6edd92ec6bca",
             "value": {
-                "Type": "Skeleton",
-                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Erika_Skeleton.asset",
-                "Name": "Erika_Skeleton"
-            }
-        },
-        {
-            "key": "2e6db09c-72f0-4aa7-950b-6c438477b3c6",
-            "value": {
-                "Type": "Texture2D",
-                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*4.asset",
-                "Name": "*4"
+                "Type": "",
+                "Path": "Sprites\\NewSprite.asset",
+                "Name": "NewSprite"
             }
         },
         {
@@ -329,11 +329,19 @@
             }
         },
         {
-            "key": "2989da0e-0b85-43d6-adf8-6edd92ec6bca",
+            "key": "2e6db09c-72f0-4aa7-950b-6c438477b3c6",
             "value": {
-                "Type": "Sprite",
-                "Path": "Sprites\\NewSprite.asset",
-                "Name": "NewSprite"
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*4.asset",
+                "Name": "*4"
+            }
+        },
+        {
+            "key": "a2055b9e-b8ee-450f-a334-d1431e627b21",
+            "value": {
+                "Type": "Skeleton",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Erika_Skeleton.asset",
+                "Name": "Erika_Skeleton"
             }
         },
         {
@@ -342,14 +350,6 @@
                 "Type": "StandardMaterial",
                 "Path": "Assets\\Meshes\\Container(0).asset",
                 "Name": "Container(0)"
-            }
-        },
-        {
-            "key": "15078181-dc6f-4720-896b-d3ba2d35db0d",
-            "value": {
-                "Type": "Texture2D",
-                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*3.asset",
-                "Name": "*3"
             }
         },
         {
@@ -369,11 +369,11 @@
             }
         },
         {
-            "key": "516bd7c1-fcae-49aa-a7bb-e37c4e8a3b2c",
+            "key": "15078181-dc6f-4720-896b-d3ba2d35db0d",
             "value": {
-                "Type": "StandardMaterial",
-                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Bow_MAT.001.asset",
-                "Name": "Bow_MAT.001"
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*3.asset",
+                "Name": "*3"
             }
         },
         {
@@ -382,6 +382,14 @@
                 "Type": "PhysicsMaterial",
                 "Path": "Assets\\Materials\\M_BouncingMaterial.asset",
                 "Name": "M_BouncingMaterial"
+            }
+        },
+        {
+            "key": "516bd7c1-fcae-49aa-a7bb-e37c4e8a3b2c",
+            "value": {
+                "Type": "StandardMaterial",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Bow_MAT.001.asset",
+                "Name": "Bow_MAT.001"
             }
         },
         {
@@ -409,19 +417,19 @@
             }
         },
         {
-            "key": "53ec5500-4d99-45b8-896e-391b745eeedb",
-            "value": {
-                "Type": "Texture2D",
-                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*8.asset",
-                "Name": "*8"
-            }
-        },
-        {
             "key": "0b6fbd21-e5fa-442f-947f-ae8fd99a8691",
             "value": {
                 "Type": "Texture2D",
                 "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*2.asset",
                 "Name": "*2"
+            }
+        },
+        {
+            "key": "53ec5500-4d99-45b8-896e-391b745eeedb",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\*8.asset",
+                "Name": "*8"
             }
         },
         {
@@ -473,14 +481,6 @@
             }
         },
         {
-            "key": "e5c87ffe-5c3b-46e7-8437-221b0cb76bf8",
-            "value": {
-                "Type": "Texture2D",
-                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Arrow_NM.jpg.asset",
-                "Name": "Arrow_NM.jpg"
-            }
-        },
-        {
             "key": "a7672ab1-3618-451e-95a1-0cb08799f814",
             "value": {
                 "Type": "StandardMaterial",
@@ -494,6 +494,14 @@
                 "Type": "StandardMaterial",
                 "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\EyeSpec_MAT1.001.asset",
                 "Name": "EyeSpec_MAT1.001"
+            }
+        },
+        {
+            "key": "e5c87ffe-5c3b-46e7-8437-221b0cb76bf8",
+            "value": {
+                "Type": "Texture2D",
+                "Path": "Assets\\Meshes\\SkeletalMeshes\\Erika\\Arrow_NM.jpg.asset",
+                "Name": "Arrow_NM.jpg"
             }
         },
         {
@@ -566,6 +574,30 @@
                 "Type": "StandardMaterial",
                 "Path": "Assets\\Meshes\\SkeletalMeshes\\Kackujin\\kachujin_MAT_.asset",
                 "Name": "kachujin_MAT_"
+            }
+        },
+        {
+            "key": "0c5f0a0a-a6c8-4f1d-b3a1-d9e1d4bb2763",
+            "value": {
+                "Type": "StaticMesh",
+                "Path": "Assets\\Meshes\\Moons\\Phobos.asset",
+                "Name": "Phobos"
+            }
+        },
+        {
+            "key": "11bef6c2-ce6c-433c-9dbe-9de69ae1f046",
+            "value": {
+                "Type": "LambertMaterial",
+                "Path": "Assets\\Materials\\M_Deimos.asset",
+                "Name": "M_Deimos"
+            }
+        },
+        {
+            "key": "0cd01174-5e15-4c35-9d1d-9d1984a7c87d",
+            "value": {
+                "Type": "LambertMaterial",
+                "Path": "Assets\\Materials\\M_Phobos.asset",
+                "Name": "M_Phobos"
             }
         }
     ]
